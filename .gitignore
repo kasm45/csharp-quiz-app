@@ -1,3 +1,55 @@
+# ===============================
+# Gelişmiş .gitignore (C# Projesi)
+# ===============================
+
+# Derleme çıktıları
 bin/
 obj/
-*.csproj.user
+[Bb]uild/
+[Bb]uilds/
+
+# Visual Studio kullanıcı ayarları
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio izleme ve geçici dosyaları
+.vs/
+*.dbmdl
+*.vssscc
+*.vspscc
+
+# Yayın çıktıları
+*.publish/
+publish/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# Test çıktıları
+TestResults/
+*.trx
+*.coverage
+*.coverlet.*
+
+# Geçici dosyalar
+*.tmp
+*.temp
+*.bak
+*.log
+~$*
+
+# Rider, ReSharper gibi araçlar
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# VS Code ayar klasörü
+.vscode/
+
+# Diğer
+*.cache
